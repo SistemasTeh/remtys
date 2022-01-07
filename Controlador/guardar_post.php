@@ -1,6 +1,6 @@
 <?php
 if(!empty($_POST)){
-	include "connection.php";
+	include "../BDConexion/connection.php";
 	$con  = connect();
 	$sql = "insert into post (title,description,costo,link,created_at) value (\"".$_POST["title"]."\",\"".$_POST["description"]."\",\"".$_POST["costo"]."\",\"".$_POST["link"]."\",NOW())";
 	$con->query($sql);
@@ -16,6 +16,6 @@ if(!empty($_POST)){
 		$con->query($sql);
 		}
 	}
-	header("Location: lista.php");
+	header("Location: ../lista.php");
 }
 ?>

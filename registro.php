@@ -13,7 +13,7 @@
 			<h1>Registro de Trámites </h1>
       <h3>Nuevo Trámite</h3>
 
-<form method="post" action="./guardar_post.php">
+<form method="post" action="./Controlador/guardar_post.php">
   <div class="form-group">
     <label for="title">Titulo</label>
     <input type="text" id="title" class="form-control" name="title" placeholder="Titulo">

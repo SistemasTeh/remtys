@@ -9,7 +9,7 @@
 <body>
 
 <?php 
-include "connection.php";
+include "BDConexion/connection.php";
  ?>
 
 
